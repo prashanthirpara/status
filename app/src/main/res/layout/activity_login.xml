@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_background"
+    tools:context="whatsstatus.pasadeveloper.com.whatsstatus.login">
+    
+    <ImageView
+        android:id="@+id/loginlogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/logo"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginlogo"
+        android:text="@string/google_login"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+    <ProgressBar
+        android:visibility="invisible"
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_text"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/google_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:text="@string/login_with_google"
+        android:background="@drawable/ic_roundbg"
+        android:drawableStart="@drawable/ic_google_logo"
+        android:drawableLeft="@drawable/ic_google_logo"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/google_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:text="@string/logout"
+        android:background="@drawable/ic_roundbg"/>
+
+    <TextView
+        android:id="@+id/login_skip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:gravity="center"
+        android:text="Skip login"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/ActionbarDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

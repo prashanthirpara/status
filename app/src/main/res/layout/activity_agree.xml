@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_background"
+    tools:context="whatsstatus.pasadeveloper.com.whatsstatus.Favorite.Agree">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="100dp"
+        android:text="Name :"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.26"
+        android:autoLink="email"
+        android:background="@drawable/button_style2"
+        android:elevation="2dp"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:paddingBottom="5dp"
+        android:paddingStart="10dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        tools:ignore="ObsoleteLayoutParam" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="76dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox"
+        android:layout_alignBottom="@+id/checkBox"
+        android:layout_marginRight="15dp"
+        android:layout_toEndOf="@+id/checkBox"
+        android:text="I am above 18 years of age and I agree to the Terms and Conditions."
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_below="@+id/textView12"
+        android:text="Terms and Conditions"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/button_style"
+        android:text="Proceed"
+        android:textAllCaps="false"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16sp" />
+
+</RelativeLayout>
