@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Actionbar</item>
+        <item name="colorPrimaryDark">@color/ActionbarDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Welcome" parent="android:Theme.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/ActionbarDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/layout_background</item>
+    </style>
+
+    <style name="Introduction" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/ActionbarDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/layout_background</item>
+    </style>
+
+    <style name="Whatsstatus1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#DCE35B</item>
+        <item name="colorPrimary">#45B649</item>
+        <item name="colorAccent">#45B649</item>
+    </style>
+
+    <style name="Whatsstatus10" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#43cea2</item>
+        <item name="colorPrimary">#185a9d</item>
+        <item name="colorAccent">#185a9d</item>
+    </style>
+
+    <style name="Whatsstatus2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#AA076B</item>
+        <item name="colorPrimary">#61045F</item>
+        <item name="colorAccent">#61045F</item>
+    </style>
+
+    <style name="Whatsstatus3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#ee0979</item>
+        <item name="colorPrimary">#ff6a00</item>
+        <item name="colorAccent">#ff6a00</item>
+    </style>
+
+    <style name="Whatsstatus4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#00bf8f</item>
+        <item name="colorPrimary">#001510</item>
+        <item name="colorAccent">#001510</item>
+    </style>
+
+    <style name="Whatsstatus5" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#fe8c00</item>
+        <item name="colorPrimary">#f83600</item>
+        <item name="colorAccent">#f83600</item>
+    </style>
+
+    <style name="Whatsstatus6" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#00c6ff</item>
+        <item name="colorPrimary">#0072ff</item>
+        <item name="colorAccent">#0072ff</item>
+    </style>
+
+    <style name="Whatsstatus7" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#ff00cc</item>
+        <item name="colorPrimary">#333399</item>
+        <item name="colorAccent">#ff00cc</item>
+    </style>
+
+    <style name="Whatsstatus8" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#FF8008</item>
+        <item name="colorPrimary">#FFC837</item>
+        <item name="colorAccent">#FFC837</item>
+    </style>
+
+    <style name="Whatsstatus9" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#ff0084</item>
+        <item name="colorPrimary">#33001b</item>
+        <item name="colorAccent">#ff0084</item>
+    </style>
+
+    <style name="Whatsstatusred" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#D31027</item>
+        <item name="colorPrimary">#EA384D</item>
+        <item name="colorAccent">#EA384D</item>
+    </style>
+
+    <style name="favorite" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">#61045F</item>
+        <item name="colorPrimary">#AA076B</item>
+        <item name="colorAccent">#AA076B</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

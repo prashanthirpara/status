@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="graycolor">#c2c2c2</color>
+    <color name="actionbar">#9b0493</color>
+    <color name="actionbardark">#38068f</color>
+    <color name="Actionbar">#f50057</color>
+    <color name="ActionbarDark">#c51162</color>
+    <color name="red">#EA384D</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="dot_active">#000000</color>
+    <color name="dot_inactive">#cccccc</color>
+    <color name="grapefruit">#f85032</color>
+    <color name="grapefruitdark">#e73827</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active</item>
+        <item>@color/dot_active</item>
+        <item>@color/dot_active</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive</item>
+        <item>@color/dot_inactive</item>
+        <item>@color/dot_inactive</item>
+    </array>
+</resources>

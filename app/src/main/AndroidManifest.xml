@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!-- suppress AndroidDomInspection -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="whatsstatus.pasadeveloper.com.whatsstatus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/whats_status"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/whats_status"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Welcome2"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Status Category"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".Category"
+            android:label="Status Category"
+            android:screenOrientation="userPortrait" />
+        <activity android:name=".Ad" />
+        <activity
+            android:name=".About"
+            android:label="About"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".Notification"
+            android:label="Notification"
+            android:screenOrientation="userPortrait" />
+        <activity android:name=".Statusview" />
+        <activity
+            android:name=".Introduction"
+            android:theme="@style/Introduction" />
+        <activity android:name=".Favorite.Agree" />
+        <activity
+            android:name=".Favorite.Termsandconditions"
+            android:label="Terms and Conditions" />
+        <activity android:name=".login"
+            android:label="Profile"
+            android:screenOrientation="userPortrait" />
+    </application>
+
+</manifest>

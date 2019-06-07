@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "469775659788",
+    "firebase_url": "https://whatsstatus-83f5c.firebaseio.com",
+    "project_id": "whatsstatus-83f5c",
+    "storage_bucket": "whatsstatus-83f5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469775659788:android:0540d32e4ab98f9a",
+        "android_client_info": {
+          "package_name": "whatsstatus.pasadeveloper.com.whatsstatus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469775659788-g4mml32el8usme19c5kmnh0nfteq3l3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "whatsstatus.pasadeveloper.com.whatsstatus",
+            "certificate_hash": "37eb2f77cc2086006086959307034deecedd12b9"
+          }
+        },
+        {
+          "client_id": "469775659788-v8fh82hlt1302tqgkhtur5n448564g90.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "whatsstatus.pasadeveloper.com.whatsstatus",
+            "certificate_hash": "00486cc19a66c09ff3429a4d083f7d5c2d93912d"
+          }
+        },
+        {
+          "client_id": "469775659788-0hdfec9vbne23g6jucj5i2oju74493nl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM0Gw_uxmcBFYoTGvX1TO9u30ymSlu1mE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469775659788-0hdfec9vbne23g6jucj5i2oju74493nl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-6726985073098623~1794408195"
+    }
+  ],
+  "configuration_version": "1"
+}

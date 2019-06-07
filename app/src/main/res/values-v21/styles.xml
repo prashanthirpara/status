@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Welcome" parent="android:Theme.NoTitleBar.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/ActionbarDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimaryDark">@color/ActionbarDark</item>
+        <item name="android:colorPrimary">@color/Actionbar</item>
+        <item name="android:navigationBarColor">@color/Actionbar</item>
+        <item name="android:statusBarColor">@color/ActionbarDark</item>
+        <item name="android:windowBackground">@drawable/layout_background</item>
+    </style>
+</resources>
